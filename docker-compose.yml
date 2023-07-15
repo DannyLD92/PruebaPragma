@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  datapruebadataengineer:
+    image: datapruebadataengineer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
